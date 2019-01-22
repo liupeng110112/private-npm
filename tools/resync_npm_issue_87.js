@@ -7,7 +7,7 @@ const sleep = ms => cb => setTimeout(cb, ms);
 
 // node resync_npm.js [registry]
 const registry = process.argv[2] || require('../config').sourceNpmRegistry;
-const url = 'https://os.alipayobjects.com/rmsportal/eDMScnlBhNhHaGXMJWxjvCjfxMHhYwEx.html';
+const url = 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3045824731,3823619280&fm=200&gp=0.jpg';
 
 co(function* () {
   const result = yield urllib.request(url);

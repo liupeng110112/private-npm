@@ -64,7 +64,7 @@ $ npm config set registry http://47.99.219.124
 $ npm install [module-name]
 ```
 
-2、公司私有模块安装，npm install 私有前缀/模块名。 (目前私有前缀有 @lp @lp-test)
+2、私有模块安装，npm install 私有前缀/模块名。 (目前私有前缀有 @lp @lp-test)
 
 ```bash
 $ npm install [@lp/module-name]
@@ -75,10 +75,10 @@ $ npm install [@lp/module-name]
 1、登录 npm 
 
 ```bash
-$ unpm login
+$ npm login
 Username: name
 Password: ***
-Email: (this IS public) name@uyunsoft.cn 
+Email: (this IS public) name@test.cn 
 ```
 
 2、创建测试模块
@@ -94,7 +94,7 @@ version: 1.0.0
 
  ```bash
 {
-  "name": "@uyun/helloworld",
+  "name": "@lp/helloworld",
   "version": "1.0.0",
   "description": "my first scoped package",
   "main": "index.js",
