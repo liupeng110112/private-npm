@@ -81,7 +81,7 @@ var config = {
     }
   },
 
-  logoURL: 'https://os.alipayobjects.com/rmsportal/oygxuIUkkrRccUz.jpg', // cnpm logo image url
+  logoURL: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548150648226&di=43efa1f1d1de61e947399b122f2238ed&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D4152922d3e9b033b3885f4997da75ca6%2F5ab5c9ea15ce36d340410c1930f33a87e950b156.jpg', // cnpm logo image url
   adBanner: '',
   customReadmeFile: '', // you can use your custom readme file instead the cnpm one
   customFooter: '', // you can add copyright and site total script html here
