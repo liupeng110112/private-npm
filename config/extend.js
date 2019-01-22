@@ -25,7 +25,7 @@ var config = {
     }
   },
   // logoURL: '/img/logo.png',
-  registryHost: '47.99.219.124',
+  registryHost: '47.99.219.124:7002',
   // badgeSubject: 'npm',
   npmClientName: 'npm', // use `${name} install package`
   badgeSubject: 'npm',

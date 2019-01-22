@@ -49,7 +49,7 @@ $ npm install [@lp/module-name]
 1、登录 npm 
 
 ```bash
-$ unpm login
+$ npm login
 Username: name
 Password: ***
 Email: (this IS public) name@uyunsoft.cn 
