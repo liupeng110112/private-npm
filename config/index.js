@@ -226,13 +226,13 @@ var config = {
 if (process.env.NODE_ENV !== 'test') {
   var customConfig;
   if (process.env.NODE_ENV === 'development') {
-    customConfig = path.join(root, 'config', 'config.js');
+    customConfig = path.join(root, 'config', 'extend.js');
   } else {
     // 1. try to load `$dataDir/config.json` first, not exists then goto 2.
     // 2. load config/config.js, everything in config.js will cover the same key in index.js
     customConfig = path.join(dataDir, 'config.json');
     if (!fs.existsSync(customConfig)) {
-      customConfig = path.join(root, 'config', 'config.js');
+      customConfig = path.join(root, 'config', 'extend.js');
     }
   }
   if (fs.existsSync(customConfig)) {
