@@ -52,7 +52,7 @@ $ npm install [@lp/module-name]
 $ npm login
 Username: name
 Password: ***
-Email: (this IS public) name@uyunsoft.cn 
+Email: (this IS public) name@test.cn 
 ```
 
 2、创建测试模块
@@ -68,7 +68,7 @@ version: 1.0.0
 
  ```bash
 {
-  "name": "@uyun/helloworld",
+  "name": "@lp/helloworld",
   "version": "1.0.0",
   "description": "my first scoped package",
   "main": "index.js",
